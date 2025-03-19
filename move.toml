@@ -1,0 +1,13 @@
+[package]
+name = "HBR"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xd2531a77d2f79867fcfdc8620822e8af73e5041ff26fbe58eced2af286b555c7"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+[dev-dependencies]
